@@ -42,5 +42,21 @@ public class ArrayListGradebook {
 
         double avg = sum / students.size();
         System.out.println("Average grade: " + avg);
+
+//        ArrayList<String> planets = new ArrayList<>();
+//
+//        planets.add("Mercury");
+//        planets.add("Venus");
+//        planets.add("Earth");
+//        planets.add("Mars");
+//        planets.add("Jupiter");
+//        planets.add("Saturn");
+//        planets.add("Uranus");
+//        planets.add("Neptune");
+//
+//        for(String planet : planets){
+//            System.out.println(planet);
+//        }
+//        System.out.println(planets.size());
     }
 }

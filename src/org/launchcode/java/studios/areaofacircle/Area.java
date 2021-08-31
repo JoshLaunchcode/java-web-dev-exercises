@@ -12,7 +12,7 @@ public class Area {
             System.out.println("What is the radius of your circle?");
             if(input.hasNextDouble()) {
                 radius = input.nextDouble();
-                if(radius >= 0){
+                if(radius > 0){
                     verified = true;
                     System.out.println("Area is " + Circle.getArea(radius));
                 } else {
