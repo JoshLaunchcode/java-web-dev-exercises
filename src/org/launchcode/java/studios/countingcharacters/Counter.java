@@ -43,6 +43,7 @@ public class Counter {
         }
 
         //Print results
+        System.out.println("String to count: " + stringToTest);
         for(Map.Entry<Character, Integer> character : charTotals.entrySet()){
             System.out.println(character.getKey() + ": " + character.getValue());
         }
