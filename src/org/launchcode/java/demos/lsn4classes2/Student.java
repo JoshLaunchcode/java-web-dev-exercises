@@ -57,6 +57,7 @@ public class Student {
 
     // TODO: Add your custom 'toString' method here. Make sure it returns a well-formatted String rather
     //  than just the class fields.
+    @Override
     public String toString(){
         return "Name: " + this.name + ", ID: " + this.studentId + ", Grade: " + getGradeLevel() + ", GPA: " + this.gpa;
     }

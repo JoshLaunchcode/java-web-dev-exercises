@@ -10,6 +10,7 @@ public class Course {
 
     // TODO: Add your custom 'toString' method here. Make sure it returns a well-formatted String rather than
     //  just the class fields.
+    @Override
     public String toString(){
         return "Topic: " + this.topic + ", Instructor: " + instructor + ", Student List: " + String.join(", ", enrolledStudents.toString());
     }
